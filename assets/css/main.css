@@ -1,0 +1,117 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Inter,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,sans-serif;
+    /*font-weight: 200;*/
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.text-sm{
+    font-size: .875rem;
+}
+
+.text-xl {
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+#other-nav-link{
+    background-color: black;
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.margin{
+    margin-left: 15px;
+}
+
+.underline{
+    text-decoration: underline;
+    color: white;
+    display: block;
+}
+
+#device-support{
+    color: white;
+    text-align: center;
+    margin: auto;
+    width: 70%;
+    padding: 50px;
+}
+
+#callToAction{
+    text-align: center;
+    padding: 50px;
+    font-weight: bolder;
+}
+.report{
+    text-align: center;
+    padding: 80px;
+    color: white;
+    text-decoration: underline;
+}
+.email2{
+    border: 10px solid black;
+    background-color: black;
+    height: 20px;
+    margin:auto;
+    border-radius: 5px;
+    width: 200px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 2px 2px 10px;
+
+}
+.built{
+    color: aliceblue;
+    text-align: center;
+    padding: 200px;
+    font-size: larger;
+}
+.built:: a{ 
+    text-decoration: underline;
+}
+.vw{
+    border: 10px solid black;
+    background-color: black;
+    height: 20px;
+    margin:auto;
+    border-radius: 5px;
+    width: 100px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bolder;
+    box-shadow: 2px 2px 10px;
+}
+img{
+    width:120px;
+    height:100px;
+    align-items: end;
+}
+.design{
+    background-color: black;
+    height: 100px;
+    margin:auto;
+    border-radius: 10px;
+    width: 620px;
+    color: white;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    border:5px white;
+}
